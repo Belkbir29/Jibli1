@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="jibliGradM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B5B"/>
+      <stop offset="100%" stop-color="#E03A28"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full bleed solid background for maskable -->
+  <rect width="512" height="512" fill="url(#jibliGradM)"/>
+
+  <!-- Safe-zone scaled group (80% safe zone centered) -->
+  <g transform="translate(51, 51) scale(0.8)">
+    <g fill="#FFFFFF">
+      <!-- Cloche Dome -->
+      <path d="M256 120 C200 120 152 160 144 216 L368 216 C360 160 312 120 256 120 Z"/>
+      <!-- Cloche handle -->
+      <circle cx="256" cy="104" r="16"/>
+      <!-- Cloche platter base -->
+      <rect x="128" y="222" width="256" height="18" rx="9"/>
+
+      <!-- Scooter / Courier Wheels -->
+      <circle cx="180" cy="330" r="32" stroke="#FFFFFF" stroke-width="12" fill="none"/>
+      <circle cx="180" cy="330" r="10" fill="#FFFFFF"/>
+      <circle cx="332" cy="330" r="32" stroke="#FFFFFF" stroke-width="12" fill="none"/>
+      <circle cx="332" cy="330" r="10" fill="#FFFFFF"/>
+
+      <!-- Frame -->
+      <path d="M180 330 L236 330 L270 280 L320 280 M270 280 L332 330" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" fill="none"/>
+      <path d="M226 260 L250 260 M238 260 L248 306" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <text x="256" y="420" font-family="'Cairo', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">JIBLI • جبلي</text>
+  </g>
+</svg>

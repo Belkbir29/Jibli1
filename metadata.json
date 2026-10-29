@@ -1,0 +1,6 @@
+{
+  "name": "JIBLI جبلي — توصيل سريع في الجزائر",
+  "description": "منصة وتطبيق التوصيل الأولى في الجزائر — أشهى الأطباق والمطاعم مع توصيل فائق السرعة وتتبع مباشر.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
